@@ -4,9 +4,8 @@ def nyc_pigeon_organizer(data)
 binding.pry
 pigeon_regorg = {}
 data.each do |col_gen_liv, data|
+end
   
-
-
   #   languages.each do |oo_f, language|
   #     language.each do |name, info|
   #       new_hash[name] ||= info         #adds "info" - which is already in there as :type => "compiled"  (etc.)
