@@ -11,6 +11,5 @@ pigeon_list = {}
       end
     end
   end
-  binding.pry
 pigeon_list
 end
