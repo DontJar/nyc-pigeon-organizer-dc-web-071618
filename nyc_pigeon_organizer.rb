@@ -5,6 +5,7 @@ pigeon_regorg = {}
   data.map do |col_gen_liv, nxt_data|
     nxt_data do |fact, name|
       pigeon_regorg[fact] ||= name
+      binding.pry
     end
   end
 
