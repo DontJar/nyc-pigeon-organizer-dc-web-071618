@@ -6,7 +6,7 @@ pigeon_list = {}
     nxt_data.each do |facts, name|
       name.each do |p_name|
         pigeon_list[p_name] ||= {}
-        binding.pry
+        # binding.pry
         # pigeon_list[p_name] ||= []
         # pigeon_list[p_name] << facts.to_s
       end
