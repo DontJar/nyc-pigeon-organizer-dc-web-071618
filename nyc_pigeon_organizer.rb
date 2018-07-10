@@ -6,6 +6,7 @@ pigeon_regorg = {}
     nxt_data do |fact, name|
       binding.pry
       pigeon_regorg[fact] ||= name
+    end
   end
 
   #   languages.each do |oo_f, language|
