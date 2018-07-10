@@ -5,8 +5,9 @@ pigeon_list = {}
   data.each do |col_gen_liv, nxt_data|
     nxt_data.each do |facts, name|
       name.each do |p_name|
-        pigeon_list[p_name] ||= []
-        pigeon_list[p_name] << facts.to_s
+        pigeon_list[p_name] = col_gen_liv
+        pigeon_list[p_name][col_gen_liv] ||= []
+        pigeon_list[p_name][col_gen_liv] << facts.to_s
       end
     end
   end
