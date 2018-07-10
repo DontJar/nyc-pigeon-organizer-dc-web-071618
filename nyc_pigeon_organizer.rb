@@ -7,6 +7,7 @@ pigeon_regorg = {}
       pigeon_regorg[fact] ||= name
       binding.pry
     end
+    binding.pry
   end
 
   #   languages.each do |oo_f, language|
