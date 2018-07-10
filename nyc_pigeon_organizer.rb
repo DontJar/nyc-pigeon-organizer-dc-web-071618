@@ -8,7 +8,7 @@ pigeon_list = {}
         pigeon_list[name] ||= col_gen_liv
         # pigeon_list[p_name][col_gen_liv] ||= []
         # pigeon_list[p_name][col_gen_liv] << facts.to_s
-      end
+      # end
     end
   end
   binding.pry
