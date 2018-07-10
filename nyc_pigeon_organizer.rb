@@ -3,7 +3,7 @@ require "pry"
 def nyc_pigeon_organizer(data)
 binding.pry
 pigeon_regorg = {}
-data.each do |col_gen_liv, nxt_data|
+data.map do |col_gen_liv, nxt_data|
   pigeon_regorg << col_gen_liv
 end
 
