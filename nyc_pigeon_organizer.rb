@@ -8,5 +8,5 @@ pigeon_list = {}
       pigeon_regorg[facts] = name
     end
   end
-pigeon_regorg
+pigeon_list
 end
