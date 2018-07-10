@@ -6,7 +6,7 @@ pigeon_regorg = {}
 # binding.pry
     nxt_data do |facts, name|
 binding.pry
-      pigeon_regorg[facts] ||= name
+      pigeon_regorg[facts] = name
       # binding.pry
     end
     # binding.pry
