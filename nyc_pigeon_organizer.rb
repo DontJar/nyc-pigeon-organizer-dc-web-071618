@@ -1,7 +1,8 @@
 require "pry"
 
 def nyc_pigeon_organizer(data)
-# pigeon_regorg = {}
+binding.pry
+pigeon_regorg = {}
 
 
   #   languages.each do |oo_f, language|
