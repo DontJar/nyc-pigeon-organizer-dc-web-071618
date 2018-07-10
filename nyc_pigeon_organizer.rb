@@ -4,7 +4,6 @@ def nyc_pigeon_organizer(data)
 pigeon_regorg = {}
   data.map do |col_gen_liv, nxt_data|
     nxt_data do |fact, name|
-      binding.pry
       pigeon_regorg[fact] ||= name
     end
   end
@@ -18,6 +17,6 @@ pigeon_regorg = {}
   #   end
   #   new_hash
   # end
-
+binding.pry
   pigeon_regorg
 end
