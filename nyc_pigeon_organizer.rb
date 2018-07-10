@@ -8,6 +8,7 @@ pigeon_list = {}
         pigeon_list[p_name] ||= facts
       binding.pry
     end
+    end
   end
 pigeon_list
 end
