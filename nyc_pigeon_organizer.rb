@@ -7,7 +7,7 @@ pigeon_list = {}
       name.each do |p_name|
         pigeon_list[p_name] ||= []
         pigeon_list[p_name] << facts
-      # binding.pry
+      binding.pry
       end
     end
   end
