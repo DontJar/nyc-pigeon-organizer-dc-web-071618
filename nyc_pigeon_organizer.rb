@@ -3,8 +3,8 @@ require "pry"
 def nyc_pigeon_organizer(data)
 pigeon_regorg = {}
   data.map do |col_gen_liv, nxt_data|
-    binding.pry
-    pigeon_regorg[col_gen_liv] ||= nxt_data
+    nxt_data do |fact, name|
+      pigeon_regorg[fact] ||= name
   end
 
   #   languages.each do |oo_f, language|
