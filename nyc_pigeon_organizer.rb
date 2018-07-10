@@ -7,7 +7,7 @@ pigeon_list = {}
       name.each do |p_name|
         pigeon_list[p_name] ||= {}
         pigeon_list[p_name][col_gen_liv] ||= []
-        pigeon_list[p_name] << facts.to_s
+        pigeon_list[p_name][col_gen_liv] << facts.to_s
       end
     end
   end
