@@ -6,8 +6,8 @@ pigeon_list = {}
     nxt_data.each do |facts, name|
       name.each do |p_name|
         pigeon_list[p_name] ||= facts
-      binding.pry
-    end
+      # binding.pry
+      end
     end
   end
 pigeon_list
